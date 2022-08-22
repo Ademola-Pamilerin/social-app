@@ -1,0 +1,23 @@
+.imgCover {
+    width: 80%;
+    height: 100%;
+}
+
+.imgCoverMain {
+    width: 100%;
+    height: 100%;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    box-shadow: 1px 1px 1px 2px grey;
+}

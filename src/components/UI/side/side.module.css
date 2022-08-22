@@ -1,0 +1,23 @@
+.side {
+    flex: 3;
+    width: 100%;
+    max-width: 20rem;
+    height: calc(100vh - 4rem);
+    overflow-y: scroll;
+    /* position: sticky; */
+}
+
+.side::-webkit-scrollbar {
+    display: none;
+}
+
+.logout {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-width:1200px) {
+    .side {
+        flex: 2;
+    }
+}
